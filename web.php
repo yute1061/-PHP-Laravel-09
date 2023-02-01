@@ -23,7 +23,7 @@ Route::controller(NewsController::class)
     Route::get('news/create', 'add');
 });
 
-//PHP-Laravel-09 課題3
+//PHP-Laravel-09 課題3   
 //Route::controller(AAAController::class)
 //->group(function() {
     //Route::get('XXX' 'bbb');
