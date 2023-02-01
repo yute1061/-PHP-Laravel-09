@@ -30,6 +30,7 @@ Route::controller(NewsController::class)
 //});
 
 //PHP-Laravel-09 課題4
+use App\Http\Controllers\Admin\ProfileController;
 Route::controller(ProfileController::class)
 ->prefix('admin')->group(function() {
     Route::get('profile/create', 'add');
